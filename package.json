@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "new": "npm install; git status; git add ."
   },
   "lint-staged": {
     "src/js/*.js": [
